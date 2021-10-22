@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	line-height: 1.25;
+	font-family: 'Oswald' , sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+}
+
+
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.container:before,.container:after{
+	content: '';
+	display: block;
+	clear: both;
+	
+}
+
+.button{
+	padding: 8px 25px;
+	border-radius: 8px;
+	min-width: 150px;
+	background: transparent;
+	border: 1px solid transparent;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.button:hover,
+.button:focus{
+	/*background: rgba(0, 0, 0, .4);*/
+	background: transparent;
+	border-color: #e8631c;
+}
+.orange{
+	background: #e8631c;
+}
+
+/*<----header---->*/
+
+header{
+	background: rgba(0, 0, 0, .5);
+	/*overflow: hidden;*/
+	padding: 0px 15px;
+	position: relative;
+	z-index: 100;
+}
+header:before,header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header .logo{
+	float: left;
+	padding-top: 5px;
+	
+}
+header .menu{
+	
+	max-width: 600px;
+	margin:0px auto 0;
+	text-align: center;
+
+
+}
+
+header .search-icon
+{
+	float: right;
+	color: white;
+	margin: 25px 0 0;
+}
+ header .menu li a{
+	color: white;
+	padding: 0 15px
+}
+header .menu li{
+	display: inline-block;
+	position: relative;
+	padding-top: 25px;
+
+}
+
+header .menu li:hover ul.sub-menu{
+	 display: block;
+}
+
+ul .sub-menu{
+	background: #fff;
+	position: absolute;
+	width: 140px;
+	padding: 10px 0 0;
+	display: none;
+	
+}
+
+ul .sub-menu li{
+	display: block;
+}
+
+ul .sub-menu li a{
+	display: block; 
+	padding: 8px 15px;
+	color: black;
+}
+ul .sub-menu li a:hover {
+	color: teal;
+}
+.banner{
+	background: url("images/banner.png") no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+    margin-top: -80px;
+    color: white;
+    padding-bottom: 30px;
+}
+.banner h1{
+	font-size: 124px;
+	margin: 240px 0 0;
+
+}
+.banner .banner-info{
+	max-width: 430px;
+	font-size:  28px;
+	font-weight: 300;
+	margin: 15px 0 30px;
+	line-height: 1.5 ;
+	
+}
+
+/*<---dance tour--->*/
+
+.dance-tour{
+	background: #e8631c;
+	padding: 20px 0;
+	color: #fff;
+}
+
+.section-title{
+   font-size: 75px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.text-center{
+	text-align: center ;
+} 
+.section-subtitle {
+	font-size: 28px;
+	max-width: 600px;
+	font-weight: 300;
+	margin: 15px auto;
+	line-height: 1.5;
+
+}
+
+.img-100{
+	max-width: 100%;
+	vertical-align: top;
+	width: 100%;
+}
+.columns .cols{
+	width: 33%;
+	float: left;
+	padding: 25px;
+}
+.columns .user_info{
+	background: #303030;
+	font-size: 22px;
+	font-weight: 300;
+	padding: 20px;
+}
+.columns .country_name{
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 5px  ;
+}
+
+.columns .user_info .info{
+	padding: 5px;
+
+}
+
+
+
